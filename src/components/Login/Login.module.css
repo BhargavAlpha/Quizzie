@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .inputDiv {
+    display: flex;
+    flex-direction: row;
+    /* gap:20px; */
+  }
+  
+  p {
+    /* flex: 0 0 80px; */
+    width: 150px; 
+    margin: 0; /* Remove default margin to ensure precise alignment */
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #474444;
+    position: relative;
+    right: 0;
+  }
+  
+  input {
+    background: #F4F4F4;
+    width: 350px;
+    height: 38px;
+    border-radius: 10px, 10px, 0px, 0px;
+    border: 1px ;
+  }
+  
+  .btn{
+      font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  
+      margin-top: 20px;
+      background: #A9BCFF;
+      width: 274px;
+      height: 38px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+  }

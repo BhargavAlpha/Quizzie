@@ -1,0 +1,93 @@
+body{
+    overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.navigationBar {
+  height: 100vh;
+  width: 15%;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.top {
+  order: -1; /* This places the 'top' div at the very top */
+  font-family: Jomhuria;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.middle {
+  flex: 1; /* This makes the 'middle' div take up the available space in the middle */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom {
+  background-color: #ccc; /* Just for styling, replace with your styles */
+  padding: 10px;
+
+}
+
+.btn {
+    all: initial;
+  height: 40px;
+  width: 90%;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 0px #0000001f;
+  border-radius: 10px;
+  text-align: center;
+}
+.statistics {
+    background: #EDEDED;
+  height: 100vh;
+  width: 85%;
+  overflow: hidden;
+}
+.logoutbtn {
+    margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.quizInfo{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.qsInfo{
+width: 25%;
+height: 60%;
+border-radius: 10px;
+background: #FFFFFF;
+}
+
